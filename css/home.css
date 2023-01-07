@@ -1,0 +1,445 @@
+#newsletter {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+#newsletter p {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#newsletter form {
+  width: 100%;
+  height: auto;
+}
+
+#newsletter form button,
+#newsletter form input {
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+#newsletter form input,
+#newsletter form button {
+  border: none;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+#newsletter form input:focus,
+#newsletter form button:focus {
+  outline: none;
+}
+
+#newsletter form input {
+  font-size: 16px;
+}
+
+#newsletter form button {
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #eb664a;
+}
+
+@media screen and (min-width: 760px) {
+  #newsletter {
+    padding: 0;
+    height: auto;
+  }
+  #newsletter form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    padding: 0;
+  }
+  #newsletter form input {
+    width: 70%;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+  }
+  #newsletter form button {
+    width: 30%;
+    height: 60px;
+    margin-left: -3px;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1e1e1e;
+}
+
+footer .footer__container {
+  padding: 20px;
+}
+
+footer .footer__container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+footer .footer__container a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 760px) {
+  footer .footer__container {
+    height: auto;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1124px;
+    margin: 0 auto;
+  }
+  footer .footer__container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    width: 400px;
+  }
+  footer .footer__container a {
+    font-size: 14px;
+  }
+}
+
+main #hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+main #hero .hero__image {
+  width: 100%;
+  height: 350px;
+}
+
+main #hero .hero__image img {
+  width: 100%;
+  height: 100%;
+}
+
+main #hero .hero__text {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+main #hero .hero__text h3 {
+  color: white;
+  font-size: 24px;
+}
+
+main #hero .hero__text p {
+  margin-top: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+main #hero .hero__text .hero__cta {
+  width: 100%;
+  height: 40px;
+  background-color: #eb664a;
+  border-radius: 9px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+main #hero .hero__text .details {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #hero .hero__text .details .detail {
+  width: 40%;
+  height: auto;
+}
+
+main #hero .hero__text .details .detail p {
+  margin-top: -5px;
+  opacity: 0.7;
+}
+
+main #powered {
+  width: 100%;
+  height: auto;
+  background-color: #1e1e1e;
+}
+
+main #powered .powered__container {
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+}
+
+main #powered .powered__container .powered__info {
+  width: auto;
+  height: 30px;
+  color: #ffffff;
+  opacity: 0.7;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main #powered .powered__container .powered__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+main #powered .powered__container .powered__details a {
+  color: #ffffff;
+  opacity: 0.7;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main #joinUs {
+  width: 100%;
+  height: auto;
+}
+
+main #joinUs .joinUs__image {
+  width: 100%;
+  height: 300px;
+}
+
+main #joinUs .joinUs__image img {
+  width: 100%;
+  height: 100%;
+}
+
+main #joinUs .joinUs__text {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+main #joinUs .joinUs__text h3 {
+  color: #eb664a;
+  font-size: 24px;
+}
+
+main #joinUs .joinUs__text p {
+  color: #ffffff;
+}
+
+main #joinUs .joinUs__text .reasons {
+  width: 100%;
+  margin-top: 20px;
+}
+
+main #joinUs .joinUs__text .reasons p {
+  position: relative;
+  width: 98%;
+  height: 40px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+main #joinUs .joinUs__text .reasons p::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  background-color: #eb664a;
+  border-radius: 50%;
+}
+
+main #trusted {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 1024px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+main #trusted .trusted__image {
+  width: 100%;
+  height: 350px;
+}
+
+main #trusted .trusted__image img {
+  width: 100%;
+  height: 100%;
+}
+
+main #trusted .trusted__text {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+main #trusted .trusted__text h3 {
+  color: white;
+  font-size: 24px;
+}
+
+main #trusted .trusted__text h3 span {
+  color: #eb664a;
+}
+
+main #trusted .trusted__text p {
+  margin-top: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+main #trusted .trusted__text .trusted__cta {
+  width: 100%;
+  height: 40px;
+  background-color: #eb664a;
+  border-radius: 9px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 760px) {
+  main #hero,
+  main #trusted {
+    max-width: 1124px;
+    margin-inline: auto;
+  }
+  main #hero .hero__text p,
+  main #hero .trusted__text p,
+  main #trusted .hero__text p,
+  main #trusted .trusted__text p {
+    width: 80%;
+  }
+  main #hero .hero__text .hero__cta,
+  main #hero .hero__text .trusted__cta,
+  main #hero .trusted__text .hero__cta,
+  main #hero .trusted__text .trusted__cta,
+  main #trusted .hero__text .hero__cta,
+  main #trusted .hero__text .trusted__cta,
+  main #trusted .trusted__text .hero__cta,
+  main #trusted .trusted__text .trusted__cta {
+    width: 40%;
+  }
+  main #hero {
+    flex-direction: row;
+  }
+  main #hero .hero__text p {
+    width: 100%;
+    line-height: 35px;
+  }
+  main #hero .hero__image {
+    order: 2;
+  }
+  main #hero .hero__image img {
+    width: 100%;
+  }
+  main #powered {
+    margin-top: 50px;
+  }
+  main #powered .powered__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1124px;
+    margin-inline: auto;
+    padding: 20px 0;
+  }
+  main #powered .powered__container .powered__info {
+    margin: 0;
+    margin-left: -40px;
+  }
+  main #powered .powered__container .powered__details {
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+  }
+  main #powered .powered__container .powered__details a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  main #joinUs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  main #joinUs .joinUs__image {
+    height: 450px;
+  }
+  main #joinUs .joinUs__text {
+    align-self: center;
+  }
+  main #joinUs .joinUs__text h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  main #joinUs .joinUs__text p {
+    width: 80%;
+    line-height: 30px;
+  }
+  main #trusted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  main #trusted .trusted__image {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    order: 2;
+  }
+  main #trusted .trusted__text {
+    order: 1;
+  }
+  main #trusted .trusted__text h3 {
+    font-size: 42px;
+  }
+  main #trusted .trusted__text .trusted__cta {
+    width: 250px;
+    height: 55px;
+  }
+}

@@ -1,0 +1,10 @@
+$background: #131314;
+$background2: #1e1e1e;
+$primary-text: #ffffff;
+$secondary-color: #eb664a;
+
+@mixin flex($justify, $align) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+}

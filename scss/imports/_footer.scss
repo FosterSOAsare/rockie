@@ -1,0 +1,38 @@
+footer {
+	width: 100%;
+	height: auto;
+	background-color: $background2;
+	.footer__container {
+		padding: 20px;
+		nav {
+			@include flex(space-between, center);
+			margin-bottom: 40px;
+		}
+		a {
+			text-decoration: none;
+			color: $primary-text;
+			opacity: 0.7;
+			font-size: 16px;
+		}
+	}
+}
+
+@media screen and(min-width : 760px) {
+	footer {
+		.footer__container {
+			height: auto;
+			background-color: $background2;
+			@include flex(space-between, center);
+			max-width: 1124px;
+			margin: 0 auto;
+			nav {
+				@include flex(space-between, center);
+				margin-bottom: 0;
+				width: 400px;
+			}
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+}
