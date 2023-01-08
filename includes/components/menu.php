@@ -13,8 +13,8 @@
     </ul>
 
     <div class="menu__ctas">
-      <a class="menu__cta login" href="">Login</a>
-      <a href="" class="menu__cta register">Register</a>
+      <a class="menu__cta login" href="./login">Login</a>
+      <a href="./register" class="menu__cta register">Register</a>
     </div>
   </nav>
 </section>

@@ -45,6 +45,9 @@ header {
 					text-decoration: none;
 					font-weight: bold;
 					color: $primary-text;
+					&:hover {
+						color: $secondary-color;
+					}
 				}
 			}
 			.header__ctas {

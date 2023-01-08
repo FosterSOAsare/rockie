@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <?php require_once './includes/header.php' ?>
-  <?php require_once './includes/menu.php' ?>
+  <?php require_once './includes/components/header.php' ?>
+  <?php require_once './includes/components/menu.php' ?>
   <main>
     <section id="hero">
       <div class="hero__image">
@@ -78,10 +78,10 @@
       </div>
     </section>
 
-    <?php require_once './includes/newsletter.php ' ?>
+    <?php require_once './includes/components/newsletter.php ' ?>
 
   </main>
-  <?php require_once './includes/footer.php ' ?>
+  <?php require_once './includes/components/footer.php ' ?>
   <script src="./js/app.js" type="module"></script>
 </body>
 

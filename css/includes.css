@@ -56,6 +56,9 @@ header .header__container .header__logo a {
     font-weight: bold;
     color: #ffffff;
   }
+  header .header__container .header__nav a:hover {
+    color: #eb664a;
+  }
   header .header__container .header__ctas {
     display: block;
     display: flex;
