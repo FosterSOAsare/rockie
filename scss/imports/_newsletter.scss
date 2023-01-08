@@ -36,6 +36,11 @@
 			background-color: $secondary-color;
 		}
 	}
+	.err {
+		color: red;
+		font-size: 14px;
+		display: none;
+	}
 }
 
 @media screen and(min-width : 760px) {

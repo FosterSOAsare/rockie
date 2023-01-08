@@ -44,7 +44,7 @@
     <section id="account">
       <div class="account__actions">
         <article id="email">
-          <form action="">
+          <form action="" id="login">
             <input type="text" placeholder="Email Address" name='email' aria-label="Email Address">
             <input type="password" placeholder="Password" name="password">
             <button>Login</button>
