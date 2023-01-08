@@ -1,6 +1,21 @@
 @import "./imports/variables";
 @import "./imports/newsletter";
-@import "./imports/footer";
+header {
+	.header__nav {
+		a.home {
+			color: $secondary-color;
+		}
+	}
+}
+#phone__menu {
+	.content {
+		li {
+			a.home {
+				color: $secondary-color;
+			}
+		}
+	}
+}
 main {
 	#hero {
 		width: 100%;

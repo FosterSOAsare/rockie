@@ -13,6 +13,7 @@
 
 <body>
   <?php require_once './includes/header.php' ?>
+  <?php require_once './includes/menu.php' ?>
   <main>
     <section id="hero">
       <div class="hero__image">
@@ -81,6 +82,7 @@
 
   </main>
   <?php require_once './includes/footer.php ' ?>
+  <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>

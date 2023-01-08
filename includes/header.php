@@ -5,10 +5,10 @@
       <a href="/">Rockies</a>
     </div>
     <nav class="header__nav">
-      <a href="">Home</a>
-      <a href="">Courses</a>
-      <a href="">About</a>
-      <a href="">Designers</a>
+      <a href="" class="home">Home</a>
+      <a href="" class="courses">Courses</a>
+      <a href="" class="about">About</a>
+      <a href="" class="designers">Designers</a>
     </nav>
 
     <div class="header__ctas">
